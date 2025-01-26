@@ -64,8 +64,8 @@
 </head>
 <body>
     <div class="container">
-        <h1>Entrez le code final</h1>
-        <p>Résolvez les énigmes pour obtenir le code.</p>
+        <h1>Enter the final code</h1>
+        <p>Solve the puzzles to get the code.</p>
         <input type="text" id="codeInput" placeholder="Entrez votre code ici">
         <button onclick="validateCode()">Valider</button>
         <div class="message" id="message"></div>
@@ -79,10 +79,10 @@
 
             if (userCode === correctCode) {
                 messageDiv.style.color = "green";
-                messageDiv.textContent = "Bravo, tu as réussi !";
+                messageDiv.textContent = "Well done, you did it !";
             } else {
                 messageDiv.style.color = "red";
-                messageDiv.textContent = "Code incorrect. Réessaye !";
+                messageDiv.textContent = "Incorrect code. Try again !";
             }
         }
     </script>
